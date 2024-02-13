@@ -30,16 +30,13 @@ h2 {
         font-size: 18px; /* Уменьшенный размер заголовка h2 */
     }
     
-    body {
-        background-size: auto; /* Адаптация размера заднего фона для мобильных устройств */
-}
 
 /* ------------------ */
 
 body {
     background-image: url('фон.jpg');
     background-size: cover; /* Масштабирование заднего фона по размеру области body */
-    background-repeat: no-repeat; /* Запрет повторения заднего фона */
+    background-repeat: repeat; /* Запрет повторения заднего фона */
     background-position: center; /* Выравнивание заднего фона по центру */
 
 #vopros {
